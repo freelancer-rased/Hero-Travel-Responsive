@@ -1,4 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primary-text {
+  font-family: "Mulish", serif;
+}
+
+header,
+main {
+  padding: 0 130px;
+}
+
+/* nav section style  */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar span {
+  color: rgb(255, 84, 0);
+}
+
+.navbar h2 {
+  font-weight: 800;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: rgb(66, 66, 71);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+nav ul li:hover {
+  color: rgb(255, 84, 0);
+}
+
+.navbar img {
+  width: 50px;
 }
