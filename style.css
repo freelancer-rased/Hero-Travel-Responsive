@@ -253,3 +253,44 @@ button {
   margin-top: 25px;
   text-align: center;
 }
+
+
+/* A simple perfect place section style  */
+.perfect-place-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.place-content h2{
+    margin-bottom: 20px;
+}
+
+.place-content ul{
+    margin: 15px 0 15px 20px;
+}
+
+.place-content button{
+    margin-left: 0;
+}
+
+.perfect-place-image{
+    background-image: url('./Images/Group\ 40089.png');
+    width: 600px;
+height: 350px;
+display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.place-small{
+    color: rgb(90, 90, 93);
+    padding: 20px 0;
+}
+
